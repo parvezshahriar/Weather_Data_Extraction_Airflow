@@ -1,0 +1,5 @@
+# Astro Runtime includes pre-installed provider packages.
+# Adding explicit required providers for Http and Postgres hooks:
+apache-airflow-providers-http
+apache-airflow-providers-postgres
+psycopg2-binary

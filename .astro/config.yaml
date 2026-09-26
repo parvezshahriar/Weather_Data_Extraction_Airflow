@@ -1,0 +1,4 @@
+project:
+    name: etl-weather-data-pipleine
+postgres:
+    port: 5433
