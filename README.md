@@ -23,7 +23,7 @@ graph LR
 
 ---
 
-## 🛠️ Tech Stack & Prerequisites
+## Tech Stack & Prerequisites
 
 * **Orchestration:** Apache Airflow 3 (TaskFlow API)
 * **Environment:** Astro CLI / Docker Desktop
@@ -33,7 +33,7 @@ graph LR
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 .
@@ -49,7 +49,7 @@ graph LR
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 Ensure you have the following installed on your machine:
@@ -76,7 +76,7 @@ Once the containers are healthy, open your browser:
 
 ---
 
-## 🗄️ Database Schema & Data Inspection
+## Database Schema & Data Inspection
 
 ### Database Table Schema (`weather_data`)
 
@@ -101,7 +101,7 @@ docker exec -it etl-weather-data-pipleine_001ede-scheduler-1 python -c "import p
 
 ---
 
-## ⚙️ Configuration & Customization
+## Configuration & Customization
 
 ### Changing Location / Coordinates
 To change the target location, update the coordinates in `dags/etlweather.py`:
@@ -125,5 +125,5 @@ with DAG(
 
 ---
 
-## 📝 License
+## License
 This project is open-source under the [MIT License](LICENSE).
