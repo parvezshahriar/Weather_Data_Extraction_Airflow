@@ -1,10 +1,10 @@
-# 🌦️ ETL Weather Data Pipeline using Apache Airflow & PostgreSQL
+# ETL Weather Data Pipeline using Apache Airflow & PostgreSQL
 
 An automated end-to-end Data Pipeline built with **Apache Airflow (TaskFlow API)**, **Open-Meteo REST API**, and **PostgreSQL**. The pipeline extracts real-time weather metrics, transforms the JSON response, and loads/upserts the structured records into a PostgreSQL database.
 
 ---
 
-## 🏗️ Architecture & Pipeline Workflow
+## Architecture & Pipeline Workflow
 
 ```mermaid
 graph LR
